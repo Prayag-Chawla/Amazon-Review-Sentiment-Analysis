@@ -165,7 +165,7 @@ from imblearn.over_sampling import SMOTE
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis
 ```
 
 Go to the project directory
