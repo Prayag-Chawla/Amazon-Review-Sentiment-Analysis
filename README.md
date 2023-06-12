@@ -12,7 +12,6 @@ Sentiment Analysis is the most common text classification tool that analyses an 
 
 ## Stemming the reviews
 Stemming is a method of deriving root word from the inflected word. Here we extract the reviews and convert the words in reviews to its root word. for example,
-
 Going->go
 Finally->fina
 If you notice, the root words doesn't need to carry a semantic meaning. There is another technique knows as Lemmatization where it converts the words into root words which has a semantic meaning. Simce it takes time. I'm using stemming.
@@ -30,16 +29,23 @@ SMOTE synthesises new minority instances between existing minority instances. It
 ##Logistic Regression
 It is a supervised machine learning algorithm mainly used for classification tasks where the goal is to predict the probability that an instance of belonging to a given class or not. It is a kind of statistical algorithm, which analyze the relationship between a set of independent variables and the dependent binary variables. It is a powerful tool for decision-making.
 
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/92a1f99c-acf2-469f-a38e-2cd6bb67debe)
+
+
 ##Decision Tree
 A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has a hierarchical, tree structure, which consists of a root node, branches, internal nodes and leaf nodes.
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/1fa7c310-0d6a-4799-885b-efdb96778391)
+
 
 ## KNN
 The k value in the k-NN algorithm defines how many neighbors will be checked to determine the classification of a specific query point. For example, if k=1, the instance will be assigned to the same class as its single nearest neighbor. Defining k can be a balancing act as different values can lead to overfitting or underfitting. Lower values of k can have high variance, but low bias, and larger values of k may lead to high bias and lower variance. The choice of k will largely depend on the input data as data with more outliers or noise will likely perform better with higher values of k. Overall, it is recommended to have an odd number for k to avoid ties in classification, and cross-validation tactics can help you choose the optimal k for your dataset.
 
 
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/46a0a2dd-04c5-46a5-8b67-89e632711d9c)
 
 ## SVC
 SVC, or Support Vector Classifier, is a supervised machine learning algorithm typically used for classification tasks. SVC works by mapping data points to a high-dimensional space and then finding the optimal hyperplane that divides the data into two classes.
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/3021dc9a-5cc2-4b5f-9d75-7445414c7431)
 
 ## Naive Byes
 aïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
@@ -47,11 +53,17 @@ It is mainly used in text classification that includes a high-dimensional traini
 Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions.
 It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
 Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/5502c049-1611-4b9b-ad96-80c8a069bc88)
 
 
 ## Visualiztion Techniques used
 * ROC Curve 
 This is a very important curve where we decide on which threshold to setup based upon the objective criteria. Here we plotted ROC for different classes which can help us understand which class was classified better. Also we plot micro and macro averages on the roc curve.
+
+
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/8c3b298a-7f7a-4fea-9079-b20a95242905)
+
+
 * Confusion Matrix
 * Wordcloud
 * Bigram
@@ -140,7 +152,9 @@ from imblearn.over_sampling import SMOTE
 
 
 ## Accuracy
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/4541b59a-7916-4484-9a3b-490afdbeee98)
 
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/c64e465d-19d0-4c00-890f-2eaa5af19998)
 
 
 
@@ -171,6 +185,17 @@ Start the server
 ```bash
   npm run start
 ```
+
+## Output
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/2014a9db-e71d-4542-b884-2313472c8082)
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/437d865b-4cbb-413d-9c9b-2bab7ffc5dce)
+![image](https://github.com/Prayag-Chawla/Amazon-Review-Sentiment-Analysis/assets/92213377/3280924c-31da-4fc3-80d6-ee2d55dda046)
+
+
+
+
+
+
 
 
 ## Used By
